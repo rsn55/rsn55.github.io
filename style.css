@@ -8,8 +8,6 @@ h1 {
   background-image: url("http://www.bu.edu/today/wpassets/features/2014_groundbreakers/illustrations/grinstaff_illust_background.jpg");
   background-position: center center;
   text-transform: uppercase;
-  background-size: cover;
-  background-repeat:repeat-y;
   height: 100px;
   width: 100%;
 }
