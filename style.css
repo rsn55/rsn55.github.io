@@ -18,17 +18,20 @@ body {
   font-size: 20px;
   font-weight: 200;
   text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
 }
 a {
   text-decoration: none; /*removes underline from hyperlink*/
   color: Turquoise;
+  font-size: 10px;
   font-family: 'Lato', sans-serif;
+  text-shadow: 2px 2px white;
 }
 li {
   list-style: none; /*removes bullets from list */
   float: left;
-  margin-left: 15px;
-  padding-top: 10px; /* how far the list is from top of header */
+  margin-left: 20px; /* how far apart list items are*/
+  padding-top: 20px; /* how far the list is from top of header */
 }
 .nav {
   float: right;
