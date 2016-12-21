@@ -11,7 +11,7 @@ body {
   background-position: center center;
   text-transform: uppercase;
   background-size: cover;
-  background-repeat:repeat-x,repeat-y;
+  background-repeat:repeat-y;
   height: 700px;
   width: 100%;
 }
