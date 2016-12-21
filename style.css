@@ -1,6 +1,6 @@
 h1 {
   color: LightSeaGreen;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: 300;
   line-height: 30px;
   margin: 0;
@@ -10,7 +10,7 @@ h1 {
   text-transform: uppercase;
   background-size: cover;
   background-repeat:repeat-y;
-  height: 300px;
+  height: 100px;
   width: 100%;
 }
 
@@ -19,7 +19,14 @@ h1 {
   font-family: 'Lato', sans-serif;
 }
 
-p {
+h2 {
   color: LightPink;
   background-color: LightSeaGreen;
+  font-size: 35px;
+  font-weight: 200
+}
+p {
+  color: white;
+  background-color:LightSeaGreen;
+  font-size: 30px;
 }
