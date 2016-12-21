@@ -1,5 +1,5 @@
 h1 {
-  color: PaleTurquoise;
+  color: Aquamarine;
   text-shadow: 2px 2px white;
   font-size: 50px;
   font-weight: 300;
@@ -18,13 +18,13 @@ h1 {
   font-family: 'Lato', sans-serif;
 }
 h2 {
-  color: LightPink;
+  color: Aquamarine;
   font-size: 35px;
   font-weight: 200;
-  background-color: PaleTurquoise;
+  background-color: Aquamarine;
 }
 p {
   color: White;
-  background-color: PaleTurquoise;
+  background-color: Aquamarine;
   font-size: 30px;
 }
