@@ -1,5 +1,5 @@
 h1 {
-  color: LightSeaGreen;
+  color: PaleTurquoise;
   font-size: 50px;
   font-weight: 300;
   line-height: 30px;
@@ -17,13 +17,13 @@ h1 {
   font-family: 'Lato', sans-serif;
 }
 h2 {
-  color: LightCoral;
+  color: LightPink;
   font-size: 35px;
   font-weight: 200;
-  background-color: LightSeaGreen;
+  background-color: PaleTurquoise;
 }
 p {
   color: White;
-  background-color: LightSeaGreen;
+  background-color: PaleTurquoise;
   font-size: 30px;
 }
