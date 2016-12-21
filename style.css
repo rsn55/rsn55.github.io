@@ -26,6 +26,12 @@ a {
 }
 li {
   list-style: none; /*removes bullets from list */
+  float: left;
+  margin-left: 15px;
+  padding-top: 10px; /* how far the list is from top of header */
+}
+.nav {
+  float: right;
 }
 /*
 h1 {
