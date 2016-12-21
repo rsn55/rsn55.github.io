@@ -9,10 +9,23 @@ body {
 .header {
   background: LightPink;
   width: 100%; 
-  top: 0;
+  top: 0; /*gets rid of top margin*/
   position: fixed; /*makes top stay when scrolling*/
 }
-
+.logo {
+  float: left; /*puts name the the left*/
+  text-shadow: 2px 2px white;
+  font-size: 20px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none; /*removes underline from hyperlink*/
+  color: Turquoise;
+}
+li {
+  list-style: none; /*removes bullets from list */
+}
 /*
 h1 {
   color: Turquoise;
