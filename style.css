@@ -9,6 +9,8 @@ body {
 .header {
   background: LightPink;
   width: 100%; 
+  top: 0;
+  position: fixed; /*makes top stay when scrolling*/
 }
 
 /*
