@@ -22,10 +22,9 @@ body {
 }
 a {
   text-decoration: none; /*removes underline from hyperlink*/
-  color: Turquoise;
-  font-size: 10px;
+  color: White;
+  font-size: 15px;
   font-family: 'Lato', sans-serif;
-  text-shadow: 2px 2px white;
 }
 li {
   list-style: none; /*removes bullets from list */
