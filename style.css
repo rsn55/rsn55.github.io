@@ -22,6 +22,7 @@ body {
 a {
   text-decoration: none; /*removes underline from hyperlink*/
   color: Turquoise;
+  font-family: 'Lato', sans-serif;
 }
 li {
   list-style: none; /*removes bullets from list */
