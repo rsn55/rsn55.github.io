@@ -7,7 +7,7 @@ body {
   margin: 0 auto; /*made it centered*/
 }
 .header {
-  background: MediumOrchid;
+  background: Thistle;
   width: 100%; 
   top: 0; /*gets rid of top margin*/
   position: fixed; /*makes top stay when scrolling*/
@@ -31,7 +31,7 @@ li {
   list-style: none; /*removes bullets from list */
   float: left;
   margin-left: 25px; /* how far apart list items are*/
-  padding-top: 25px; /* how far the list is from top of header */
+  padding-top: 30px; /* how far the list is from top of header */
 }
 .nav {
   float: right;
