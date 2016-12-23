@@ -32,7 +32,7 @@ li {
   margin-left: 25px; /* how far apart list items are*/
   padding-top: 30px; /* how far the list is from top of header */
 }
-li:hover {
+a:hover {
   color: Cyan;
 }
 .nav {
