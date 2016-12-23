@@ -7,7 +7,7 @@ body {
   margin: 0 auto; /*made it centered*/
 }
 .header {
-  background: MediumSlateBlue;
+  background: MediumOrchid;
   width: 100%; 
   top: 0; /*gets rid of top margin*/
   position: fixed; /*makes top stay when scrolling*/
