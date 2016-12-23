@@ -43,6 +43,7 @@ li {
   width: 100%;
   background-color: #dfdce3;
   border: 1px solid #dfdce3;
+  overflow: none;
 }
 .start {
   font-family: 'Lato', sans-serif;
