@@ -13,7 +13,7 @@ body {
   position: fixed; /*makes top stay when scrolling*/
 }
 .logo {
-  float: left; /*puts name the the left*/
+  float: left; /*puts name to the left*/
   text-shadow: 1px 1px white;
   font-size: 20px;
   font-family: 'Lato', sans-serif;
@@ -42,6 +42,7 @@ li {
   margin: 0;
   background: LightCyan;
   width: 100%;
+  margin: 0 auto;
 }
 .start {
   font-family: 'Lato', sans-serif;
