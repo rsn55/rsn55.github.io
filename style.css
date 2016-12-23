@@ -35,6 +35,9 @@ li {
 .nav {
   float: right;
 }
+.content  {
+  padding-top: 50px;
+}
 /*
 h1 {
   color: Turquoise;
