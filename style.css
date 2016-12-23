@@ -33,7 +33,7 @@ li {
   padding-top: 30px; /* how far the list is from top of header */
 }
 li:hover {
-  color: #DBE9EE;
+  color: Cyan;
 }
 .nav {
   float: right;
