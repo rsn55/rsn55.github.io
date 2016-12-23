@@ -45,6 +45,7 @@ li {
   border: 1px solid #dfdce3;
   padding-bottom: 25px;
   padding-left: 170px;
+  padding-right: 0;
 }
 .start {
   font-family: 'Lato', sans-serif;
