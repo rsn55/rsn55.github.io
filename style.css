@@ -2,15 +2,17 @@ body {
   width: 100%;
   margin: auto;
 }
-.container {
+/*.container {
   width: 960px;
-  margin: 0 auto; /*made it centered*/
+  margin: 0 auto; made it centered*/
 }
 .header {
   background: Thistle;
   width: 100%; 
   top: 0; /*gets rid of top margin*/
   position: fixed; /*makes top stay when scrolling*/
+  width: 960px;
+  margin: 0 auto;
 }
 .logo {
   float: left; /*puts name the the left*/
