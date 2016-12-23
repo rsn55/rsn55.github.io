@@ -44,12 +44,13 @@ li {
   background-color: #dfdce3;
   border: 1px solid #dfdce3;
   padding-bottom: 25px;
-  padding-left: 60px;
+  padding-left: 150px;
 }
 .start {
   font-family: 'Lato', sans-serif;
   font-size: 30px;
   padding-top: 60px;
+  padding-left: 0;
   text-align: center;
   
 
