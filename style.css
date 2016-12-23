@@ -52,16 +52,5 @@ li {
   padding-top: 60px;
   text-align: center;
   
-.homeimage { 
-  background-image: url("http://www.planwallpaper.com/static/images/colorful-triangles-background_yB0qTG6.jpg");
-  background-repeat: no-repeat;
-  background-size:cover;
-    
-  top: 0;
-  height: 740px;
 
-  width: 100%;
-  position: relative;
-    overflow: hidden;
-  }
 
