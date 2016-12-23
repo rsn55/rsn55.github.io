@@ -40,7 +40,8 @@ li {
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   margin: 0;
-  background-color: LightCyan;
+  background: LightCyan;
+  width: 100%;
 }
 .start {
   font-family: 'Lato', sans-serif;
