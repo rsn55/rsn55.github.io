@@ -29,7 +29,7 @@ a {
 li {
   list-style: none; /*removes bullets from list */
   float: left;
-  margin-left: 20px; /* how far apart list items are*/
+  margin-left: 25px; /* how far apart list items are*/
   padding-top: 20px; /* how far the list is from top of header */
 }
 .nav {
@@ -37,6 +37,8 @@ li {
 }
 .content  {
   padding-top: 50px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
 }
 /*
 h1 {
