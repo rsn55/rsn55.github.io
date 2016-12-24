@@ -9,11 +9,11 @@ body {
 .header {
   background: Thistle;
   width: 100%; 
-  top: 0; /*gets rid of top margin*/
-  position: fixed; /*makes top stay when scrolling*/
+  top: 0;
+  position: fixed;
 }
 .logo {
-  float: left; /*puts name to the left*/
+  float: left; 
   text-shadow: 1px 1px white;
   font-size: 20px;
   font-family: 'Lato', sans-serif;
@@ -51,6 +51,7 @@ a:hover {
   font-family: 'Lato', sans-serif;
   font-size: 30px;
   padding-top: 10px;
+}
  
 .homeimage {
   padding-top: 200px; 
