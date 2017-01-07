@@ -11,6 +11,7 @@ body {
   width: 100%; 
   top: 0;
   position: fixed;
+  z-index: 1;
 }
 .logo {
   float: left; 
@@ -46,6 +47,7 @@ a:hover {
   width: 100%;
   background-color: #dfdce3;
   border: 1px solid #dfdce3;
+  
 }
 .start {
   font-family: 'Lato', sans-serif;
@@ -53,9 +55,16 @@ a:hover {
   padding-top: 10px;
 }
  
-.homeimage {
-  padding-top: 100px; 
-
-  }
-
-
+.characters,.contact {
+  background-color: #4C5364;
+}
+img {
+  opacity: 1.0;
+  
+}
+img:hover {
+    opacity: 0.5;
+}
+ img .homeimage:hover {
+  opacity: 1;
+}
