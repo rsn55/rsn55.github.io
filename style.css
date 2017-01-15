@@ -53,10 +53,13 @@ a:hover {
 }​
 .about,.doodles{
   background-color: #dfdce3;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
  .characters,.contact {
   background-color: #4C5364;
+  padding-bottom: 5px;
 }
 
 
@@ -73,5 +76,14 @@ html, body { /* prevents horizontal scroll*/
     overflow-x: hidden;
 
 }
+.start {
+  padding-top: 50px;
+}
+p{
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+
+
 
 
