@@ -194,4 +194,28 @@ h2 {
 	font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 
 }
+/* portfolio page */
+
+.artContainer {
+	text-align: center;
+}
+.crop {
+	height: 300px; 
+	width: 300px; 
+	overflow: hidden;
+	display: inline-block;
+	border: solid white 5px;
+
+}
+.art {
+	height:100%;
+	width:100%;
+}
+
+
+.crop img:hover {
+     opacity: 0.5;
+     filter: alpha(opacity=100); 
+}
+
 
