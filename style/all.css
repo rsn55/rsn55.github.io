@@ -23,9 +23,7 @@ html, body {
 .header a {
 	color:white;
 }
-a {
-	text-decoration: none;
-}
+
 
 .menu li a {
 	color: white;
@@ -162,16 +160,17 @@ h2 {
 /* styling for contact page */
 
 .logo {
+	vertical-align: middle;
+	display: inline;
 	height: 50px;
-	width: 50px;
-	padding: 20px 20px;
+    width: 50px;
+    padding: 20px 20px 20px 0px;
 }
 .click {
-	text-align: center
+	text-align: center;
 }
-.lower-icon {
-	padding: 20px;
-}
+
+
 .contactContainer {
 	margin-top: 180px;
 }
