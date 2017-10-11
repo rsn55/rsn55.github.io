@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Sacramento");
 
 html, body {
-   height: 100%;
+   
    width: 100%;
 
 }
@@ -77,7 +77,6 @@ a {
 /* common styling for all pages */
 .container {
 	margin: 0px 30%;
-	margin-top: 150px;
 	text-align: center;
 }
 .container li, .resume p{
@@ -146,6 +145,19 @@ h2 {
 	text-align: center;
 	padding: 30px 0px;
 }
+.intTest ul{
+	margin-left: 20%;
+	margin-right: 20%;
+
+}
+.intTest li {
+	list-style-type: none;
+	
+}
+.sub ul{
+	margin-left: 0%;
+	margin-right: 0%;
+}
 
 /* styling for contact page */
 
@@ -203,7 +215,9 @@ h2 {
 
 .artContainer {
 	text-align: center;
-	margin-top: 180px;
+}
+.artContainer, .container {
+	margin-top: 150px;
 }
 .crop {
 	height: 300px;
