@@ -1,0 +1,4 @@
+[submodule "applefest"]
+	path = applefest
+	url = https://github.com/rsn55/applefest.git
+	branch = master
