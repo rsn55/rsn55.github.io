@@ -1,14 +1,42 @@
 @import url("https://fonts.googleapis.com/css?family=Sacramento");
 
-html, body {
-   
-   width: 100%;
+.home {
+	overflow: hidden;
+}
+/* styling for home page */
+
+.backIm {
+	position:absolute;
+    left:0;
+    top:0;
+    width: 1300px;
+}
+
+#hometext {
+	
+	z-index:100;
+    position:absolute;    
+    text-align: right;
+    left:500px;
+    top: 50px;
+	
+}
+
+#footer {
+	
+	height:600px;
+    width:600px;
+    position:relative;
+  
+
 
 }
-.home {
-	overflow-x: hidden;
-	overflow-y: hidden;
+#containHome {
+	min-height:100%;
+   position:relative;
 }
+
+
 /* styling for menu */
 .menu ul {
 	margin: 0;
@@ -175,37 +203,14 @@ h2 {
 	margin-top: 180px;
 }
 
-/* styling for home page */
-.homePage {
-	margin-top: 15%;
-	position: relative;
-	overflow-x: hidden;
-	overflow-y: hidden;
-
-}
-
-.hometext {
-	right: 50px;
-	text-align: right;
-	position: absolute;
-	top: 10px;
-	width:100%;
-	
-}
-
-.backIm {
-	padding-top: 16%;
-	padding-right:25%;
-}
-	
 
 	/* Image source: my drawing */
 
-.rachel{
+#rachel{
 	font: 150px 'Sacramento', cursive;
 	color:#8f49e5;
 }
-.home-descript {
+#home-descript {
 	font-size: 30px;
 	font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 
@@ -289,11 +294,7 @@ h2 {
 .container .resDownload {
 	font-size: 20px;
 }
-.backIm {
-	margin-top: 300px;
-	width: 375px;
 
-}
 .rachel {
 	font-size: 80px;
 }
@@ -302,19 +303,6 @@ h2 {
 	font-size: 18px;
 }
 
-.homePage {
-	margin-top: 18%;
-	position: relative;
-}
-
-.hometext {
-	text-align: center;
-	right: 0px;
-	position: absolute;
-	top: 100px;
-	width:100%;
-	
-}
 
 	}
 
@@ -354,18 +342,6 @@ h2 {
 	font-size: 25px;
 }
 
-.homePage {
-	margin-top: 18%;
-	position: relative;
-}
-
-.hometext {
-
-	position: absolute;
-	top: 20px;
-	width:100%;
-	
-}
 
 
 }
