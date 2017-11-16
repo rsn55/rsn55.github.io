@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Sacramento");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 
 .home {
 	overflow: hidden;
@@ -6,35 +7,27 @@
 /* styling for home page */
 
 .backIm {
-	position:absolute;
-    left:0;
-    top:0;
     width: 1300px;
 }
 
 #hometext {
-	
-	z-index:100;
-    position:absolute;    
     text-align: right;
-    left:500px;
-    top: 50px;
-	
+		position: absolute;
+		right: 10px;
+		top: 200px;
+
 }
 
 #footer {
-	
-	height:600px;
-    width:600px;
-    position:relative;
-  
+
+
+		position:absolute;
+			bottom: 0px;
+			left: 5px;
 
 
 }
-#containHome {
-	min-height:100%;
-   position:relative;
-}
+
 
 
 /* styling for menu */
@@ -58,7 +51,7 @@
 	text-align: center;
 	padding: 40px 16px;
 	font-size: 20px;
-	font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-family: font-family: 'Open Sans', sans-serif;
 
 }
 .menu {
@@ -70,7 +63,7 @@
 }
 
 .page-title {
-	
+
 	padding-left: 25px;
 	color: white;
 	font-family: 'Sacramento', cursive;
@@ -102,7 +95,7 @@
 
 /* common styling for all pages */
 .container {
-	margin: 0px 30%;
+	margin: 0px 25%;
 	text-align: center;
 }
 .container li, .resume p{
@@ -130,7 +123,7 @@ body {
 	margin-right: 0px;
 }
 h2, h3, li, p, .fun {
-	font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -141,7 +134,7 @@ a:hover, a:focus {
 	color:#8f49e5;
 }
 h1 {
-	margin: 0px 0px 0px 0px;
+	margin: 5px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
 }
 img {
@@ -155,6 +148,10 @@ p {
 
 /* styling for resume page */
 
+#mips {
+	width: 600px;
+}
+
 .previous {
 	padding-top: 40px;
 	font-size: 30px;
@@ -164,6 +161,9 @@ h2 {
 	color:#8f49e5;
 
 
+}
+.macPic {
+	width: 100%;
 }
 
 .container .resDownload {
@@ -178,7 +178,7 @@ h2 {
 }
 .intTest li {
 	list-style-type: none;
-	
+
 }
 .sub ul{
 	margin-left: 0%;
@@ -201,6 +201,12 @@ h2 {
 
 .contactContainer {
 	margin-top: 180px;
+}
+#firstContact{
+	text-align: left;
+	margin: 0px 40%;
+	font-size: 20px;
+
 }
 
 
@@ -247,10 +253,39 @@ h2 {
 	border-radius: 20px;
 	border-width: 5px;
 	border-color: white;
-	margin-top:10%;
+	margin-top:5%;
 }
 
 /* Styling for Mobile Devices */
+@media only screen and (max-width: 600px){
+	#rachel {
+		font-size: 70px;
+	}
+	#home-descript{
+		font-size: 20px;
+	}
+	.backIm {
+		width: 800px;
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 750px){
+.backIm {
+	width: 1000px;
+}
+#hometext{
+	text-align: center;
+	left: 0px;
+}
+}
+@media only screen and (min-width: 600px) and (max-width: 1100px){
+#rachel {
+	font-size: 100px;
+}
+#home-descript{
+	font-size: 30px;
+}
+}
 @media only screen and (max-width: 850px) {
 .crop {
 	margin-left: 0;
@@ -295,14 +330,6 @@ h2 {
 	font-size: 20px;
 }
 
-.rachel {
-	font-size: 80px;
-}
-
-.home-descript {
-	font-size: 18px;
-}
-
 
 	}
 
@@ -311,10 +338,7 @@ h2 {
 	font-size:17px;
 	padding: 2px 7px;
 }
-.rachel {
-	font-size: 120px;
 
-}
 .page-title{
 	font-size: 19px;
 
@@ -338,11 +362,5 @@ h2 {
 }
 
 
-.home-descript {
-	font-size: 25px;
-}
-
-
 
 }
-
