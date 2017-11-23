@@ -165,6 +165,9 @@ h2 {
 .macPic {
 	width: 100%;
 }
+.iPhonePic {
+	width: 50%;
+}
 
 .container .resDownload {
 	font-size:30px;
@@ -266,6 +269,9 @@ h2 {
 	}
 	.backIm {
 		width: 800px;
+	}
+	#homeUL ul {
+		float: left;
 	}
 }
 
