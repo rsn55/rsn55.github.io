@@ -80,9 +80,7 @@
 	top: 0;
 	position: fixed;
 }
-#blackout {
-	color: #72d8bc;
-}
+
 
 
 .menu .active{
@@ -114,7 +112,7 @@
 	padding-top: 15px;
 }
 .container h2, .artContainer h2{
-	padding-top: 20px;
+	padding-top: 10px;
 }
 body {
 	background-color: #72d8bc;
@@ -149,7 +147,7 @@ p {
 /* styling for resume page */
 
 #mips {
-	width: 600px;
+	width: 100%;
 }
 
 .previous {
@@ -274,7 +272,7 @@ h2 {
 		font-size: 20px;
 	}
 	.backIm {
-		width: 800px;
+		width: 650px;
 	}
 	#homeUL ul {
 		float: left;
@@ -282,6 +280,9 @@ h2 {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 750px){
+.header {
+	text-align: left;
+}
 .backIm {
 	width: 1000px;
 }
@@ -307,8 +308,13 @@ h2 {
 	font-size:17px;
 	padding: 2px 7px;
 }
+
 .container, .contactContainer {
 	margin: 18% 5% 5% 5%;
+	padding-top: 25px;
+}
+.resume {
+	padding-top: 0px;
 }
 .artContainer {
 	margin: 18% 0% 5% 0%;
@@ -322,7 +328,8 @@ h2 {
 	padding-left: 0px;
 }
 .header {
-	text-align: center;
+
+
 	border-bottom-style: solid;
 	border-bottom-color: #8f49e5;
 	border-bottom-width: 2px;
