@@ -248,7 +248,9 @@ h2 {
 .animation{
 	max-width: 300px;
 }
-
+.cat{
+	margin-top: 50px;
+}
 .anim-container{
 	background-color: white;
 }
