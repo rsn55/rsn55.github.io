@@ -1,0 +1,26 @@
+.content{
+	width: 56%;
+	margin-left: 22%;
+}
+h1{
+	font-weight: 500;
+	margin-bottom: 10%;
+	font-size: 35px;
+}
+h2{
+	font-size: 35px;
+	font-weight: 500;
+	margin-bottom: 0px;
+}
+p{
+	margin-top: 0px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #717578;
+}
+.flex-skills{
+	display: flex;
+}
+.flex2{
+	margin-left: 20%;
+}
