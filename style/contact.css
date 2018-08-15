@@ -9,3 +9,7 @@ img{
 img:hover{
 	opacity: 0.5;
 }
+h3{
+	font-weight: 400;
+	font-size: 20px;
+}

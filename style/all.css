@@ -4,6 +4,7 @@ body{
 	color: white;
 	font-family: Helvetica Neue;
 	margin: 0 auto;
+	letter-spacing: 1px;
 }
 nav{
 	margin: 0;
@@ -65,4 +66,8 @@ nav li a{
 .sliding-middle-out:hover:after {
     width: 100%;
     background: white;
+}
+.active{
+	color:#717578;
+	cursor: default;
 }
