@@ -1,16 +1,20 @@
 .content{
 	text-align: center;
-	margin-top: 8%;
+	margin-top: 10%;
+	margin-bottom: 10%;
 }
 p{
 	color: #717578;
+	line-height: 22px;
 }
 .slideshow{
 	margin: 0;
 	margin-right: 0px;
-
+	display: inline-block;
+	width:700px;
+	margin-bottom: 80px;
 }
-.slideshow .mySlides{
+.slideshow .mySlides, .slideshow .mySlides2{
 	display: inline-block;
 	margin: auto;
 	padding: 0;
@@ -22,27 +26,24 @@ p{
 	padding-bottom: 22%;
 	cursor: pointer;
 }
-.slideshow .mySlides img{
+.slideshow .mySlides img, .slideshow .mySlides2 img{
 	width: 100%;
 }
-.project-flex{
-	display: flex;
-	
+
+.description{
 	text-align: left;
-	width: 90%;
-	margin: 0 auto;
-
-}
-.about-flex{
+	display: inline-block;
+	width: 400px;
 	
-	
+	vertical-align:top;
 }
-.slideshow-flex{
-	width: 99%;
-	flex-grow: 2;
 
-}
 .content h2{
 	font-weight: 400;
 	margin-top: 0px;
+}
+
+.posters img{
+	height: 400px;
+	margin: 10px;
 }
