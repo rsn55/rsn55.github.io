@@ -32,7 +32,7 @@ nav ul li{
 	font-weight: 400;
 
 }
-.header a{
+a{
 	color: white;
 	text-decoration: none;
 }
@@ -51,6 +51,7 @@ nav li a{
     display: inline-block;
     position: relative;
     padding-bottom: 3px;
+    cursor: pointer;
 }
 .sliding-middle-out:after {
     content: '';
