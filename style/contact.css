@@ -1,0 +1,11 @@
+.content{
+	text-align: center;
+	margin-top: 15%;
+}
+img{
+	width: 50px;
+	margin: 0px 15px;
+}
+img:hover{
+	opacity: 0.5;
+}
