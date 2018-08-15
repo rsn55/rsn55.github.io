@@ -6,3 +6,10 @@ img{
 	margin-top: 5%;
 	margin-bottom: 10%;
 }
+.art-wall img{
+	width: 25%;
+	margin: 2%;
+}
+.art-wall{
+	margin-top: 100px;
+}
