@@ -1,6 +1,7 @@
 .content{
 	width: 56%;
 	margin-left: 22%;
+	margin-bottom: 10%;
 }
 h1{
 	font-weight: 500;
@@ -23,4 +24,12 @@ p{
 }
 .flex2{
 	margin-left: 20%;
+}
+.education p{
+	margin-bottom: 0px;
+	line-height: 24px;
+}
+.cornell{
+	color: white;
+	padding-top: 10px;
 }
