@@ -1,3 +1,23 @@
 .content{
 	text-align: center;
+	margin-top: 8%;
+}
+.slideshow{
+	width: 65%;
+	margin: 0 auto;
+}
+.slideshow .mySlides{
+	display: inline-block;
+	margin: auto;
+	padding: 0;
+	width: 85%;
+}
+.slideshow img.arrow{
+	width: 5%;
+	display: inline-block;
+	padding-bottom: 20%;
+	cursor: pointer;
+}
+.slideshow .mySlides img{
+	width: 100%;
 }

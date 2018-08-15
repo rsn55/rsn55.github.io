@@ -7,6 +7,8 @@
   <link rel="stylesheet" type="text/css" href="style/all.css" media="all" />
   <link rel="stylesheet" type="text/css" href="style/projects.css" media="all" />
  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="js/projects.js"></script>
 
 </head>
   <body>
@@ -22,7 +24,47 @@
       </nav>
     </div>
     <div class="content">
-       <h2>Under Construction.</h2>
+       <h2>Cisco Internal Project Management App</h2>
+       <div class="slideshow">
+        <img class="arrow prev" onclick="plusSlides(-1)" src="logos/left.png" alt="">
+        <div class="mySlides fade">
+          <img  src="projects/peds/1.png" alt="">
+        </div>
+         <div class="mySlides fade">
+          <img  src="projects/peds/2.png" alt="">
+        </div>
+         <div class="mySlides fade">
+          <img  src="projects/peds/3.png" alt="">
+        </div>
+         <div class="mySlides fade">
+          <img  src="projects/peds/4.png" alt="">
+        </div>
+        <img class="arrow next" onclick="plusSlides(1)" src="logos/right.png" alt="">
+       </div>
     </div>
+    <script>
+
+
+    var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+
+    slides[slideIndex-1].style.display = "inline-block";  
+  }
+
+    </script>
   </body>
 </html>
