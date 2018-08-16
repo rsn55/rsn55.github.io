@@ -26,9 +26,7 @@ p{
 	padding-bottom: 22%;
 	cursor: pointer;
 }
-.slideshow img.arrow:hover{
-	opacity: 0.7;
-}
+
 .slideshow .mySlides img, .slideshow .mySlides2 img{
 	width: 100%;
 }
