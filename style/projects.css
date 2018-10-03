@@ -14,7 +14,7 @@ p{
 	width:700px;
 	margin-bottom: 80px;
 }
-.slideshow .mySlides, .slideshow .mySlides2{
+.slideshow .allSlides{
 	display: inline-block;
 	margin: auto;
 	padding: 0;
@@ -27,7 +27,7 @@ p{
 	cursor: pointer;
 }
 
-.slideshow .mySlides img, .slideshow .mySlides2 img{
+.slideshow .allSlides img{
 	width: 100%;
 }
 

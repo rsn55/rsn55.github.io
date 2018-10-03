@@ -1,146 +1,299 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <title>Rachel Nash</title>
 
   <link rel="stylesheet" type="text/css" href="style/all.css" media="all" />
   <link rel="stylesheet" type="text/css" href="style/projects.css" media="all" />
- <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="js/projects.js"></script>
 
 </head>
-  <body>
-    <div class="header">
-      <h2 ><a class="sliding-middle-out" href="index.html">rachel nash</a></h2>
-      <nav>
-        <ul>
-          <li ><a class="sliding-middle-out" href="about.html">about</a></li>
-          <li ><a class="active" href="projects.html">projects</a></li>
-          <li><a class="sliding-middle-out" href="artwork.html">artwork</a></li>
-          <li><a class="sliding-middle-out" href="contact.html">contact</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="content">
-      
-       <!-- cisco -->
-       <div class="slideshow">
-        <img class="arrow prev" onclick="plusSlides(-1)" src="logos/left.png" alt="">
-        <div class="mySlides ">
-          <img  src="projects/peds/1.png" alt="">
-        </div>
-         <div class="mySlides ">
-          <img  src="projects/peds/2.png" alt="">
-        </div>
-         <div class="mySlides ">
-          <img  src="projects/peds/3.png" alt="">
-        </div>
-         <div class="mySlides ">
-          <img  src="projects/peds/4.png" alt="">
-        </div>
-        <div class="mySlides ">
-          <img  src="projects/peds/5.png" alt="">
-        </div>
-        <img class="arrow next" onclick="plusSlides(1)" src="logos/right.png" alt="">
-       </div>
-     
-     <div class="description">
-      <h2>Internal Project Management App</h2>
-      <p>I implemented the front-end features for this flask app created from scratch with a
-        team of two other interns. <br/>
-        The site was created to cut costs ($50,000 annually) by reducing Salesforce use. <br/>
-        It allows managers to track their resources, visualize their team's time utilization, and easily assign tasks.</br>
-        Some of my contributions include a view of all ongoing projects that can be sorted and filtered, graphs displaying employee time utilization, and a tool for adding and editing tasks. </p>
-     </div>
 
-     <!-- research connect -->
-     <div class="slideshow">
-        
-        <div class="mySlides2">
-          <img  src="projects/research/search.png" alt="">
-        </div>
-         
-       </div>
-     
-     <div class="description">
-      <h2>Research Connect</h2>
-      <p>I have been a front-end designer for this project for over a year, using React to create a website that allows undergraduates seeking research opportunities to find and apply to labs.
-        <br/>
-        A couple of my contributions include a filter and search page and a feature that compares student information and position requirements to determine good matches.
-      <br/> Research Connect is a sub-team of <a class="sliding-middle-out" target="_blank" href="http://cornelldti.org/">Cornell Design and Tech Initiative</a>.</p>
-     </div>
-  
- 
-    <!-- mips -->
-    <div class="slideshow">
-        
-        <div class="mySlides2">
-          <img  src="projects/mips/mips.png" alt="">
-        </div>
-         
-       </div>
-     
-     <div class="description">
-      <h2>MIPS-32 Processor</h2>
-      <p>For my Systems Programming class, I designed a 5-stage pipelined processor with jumps, branches, data forwarding, and stalling. A full write-up of my solution can be found <a  class="sliding-middle-out" target="_blank" href="projects/mips/mips.pdf">here</a>. </p>
-     </div>
-
-      <!-- graphics -->
-      <div class="slideshow">
-        
-        <div class="mySlides2">
-          <img  src="projects/graphics/wine.jpg" alt="">
-        </div>
-         
-       </div>
-     
-     <div class="description">
-      <h2>Computer Graphics</h2>
-      <p>Here is an example of a shape I rendered in my graphics class using Catmull-Rom splines. Other memorable projects include <a class="sliding-middle-out" target="_blank" href="projects/graphics/graphic-movie.mov"> keyframe animations </a> with interpolation of quaternions, environment mapping onto sample objects, and all kinds of ray-tracing.</p>
-     </div>
-     <!-- game design -->
-      <div class="slideshow">
-        
-        <div class="mySlides2">
-          <img   src="projects/game/forest.png" alt="">
-        </div>
-         
-       </div>
-     
-     <div class="description">
-      <h2>Game Design: Headspin</h2>
-      <p> I, along with 5 other programmers and designers, created Headspin from scratch for Intro to Game Design. This puzzle-solving desktop platformer was made using LibGDX, a Java-based engine. My role was primarily to produce original artwork for the project and to assist in writing our manual and design documentation. It was displayed in the annual GDIAC showcase. <a class="sliding-middle-out" target="_blank" href="projects/game/trailer.mp4"> Watch our trailer</a> if you're curious!</p>
-     </div>
-
-    <h2>Project Posters</h2>
-    <div class="posters">
-           <a target="_blank" href="projects/posters/splunk.png"><img  src="projects/posters/splunk.png" alt=""></a>
-     <a target="_blank" href="projects/posters/peds.png"><img  src="projects/posters/peds.png" alt=""></a>
-
-     <a target="_blank" href="projects/posters/websocket.png"><img  src="projects/posters/websocket.png" alt=""></a>
-   </div>
-   <h2 style="margin-top: 80px;">Also, I made ~this website~ from scratch! (The mobile-friendliness is under construction.)</h2>
+<body>
+  <div class="header">
+    <h2><a class="sliding-middle-out" href="index.html">rachel nash</a></h2>
+    <nav>
+      <ul>
+        <li><a class="sliding-middle-out" href="about.html">about</a></li>
+        <li><a class="active" href="projects.html">projects</a></li>
+        <li><a class="sliding-middle-out" href="artwork.html">artwork</a></li>
+        <li><a class="sliding-middle-out" href="contact.html">contact</a></li>
+      </ul>
+    </nav>
   </div>
-    <script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
+  <div class="content">
+    <!-- research connect -->
+    
+    <div class="slideshow">
 
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
+      <img class="arrow prev" onclick="plusSlides(-1, 2)" src="logos/left.png" alt="">
+
+      <div class="mySlides2 allSlides">
+        <img src="projects/research/landing.png" alt="">
+      </div>
+
+      <div class="mySlides2 allSlides">
+        <img src="projects/research/search.png" alt="">
+      </div>
+
+      <div class="mySlides2 allSlides">
+        <img src="projects/research/opp.png" alt="">
+      </div>
+
+      <!--  <div class="mySlides2">
+        <img src="projects/research/faculty.png" alt="">
+      </div> -->
+
+      <img class="arrow next" onclick="plusSlides(1, 2)" src="logos/right.png" alt="">
+
+    </div>
+
+    <div class="description">
+      <h2>Research Connect</h2>
+      <p>This web application is designed to help Cornell undergraduates find lab
+        research positions and connect with professors. I collaborated with a
+        team of 7 designers and developers to build it from scratch.
+        <br />
+        I used React to create many front end features including ability to filter and search 
+        for opportunities,
+        match-finding between students and jobs, dynamic profile editing, registration forms,
+        and lab information pages.
+        <br />
+      </p>
+      <p>
+        <a class="sliding-middle-out" target="_blank" href="https://github.com/cornell-dti/research-connect" style="padding-right: 10px">
+          GitHub
+        </a>
+        <a class="sliding-middle-out" target="_blank" href="https://www.research-connect.com/" style="padding-left: 10px">
+          Website
+        </a>
+      </p>
+    </div>
+
+    <!-- queue me in -->
+
+    <div class="slideshow">
+
+      <img class="arrow prev" onclick="plusSlides(-1, 3)" src="logos/left.png" alt="">
+
+      <div class="mySlides3 allSlides">
+        <img src="projects/queue/login.png" alt="">
+      </div>
+       <div class="mySlides3 allSlides">
+        <img src="projects/queue/queue.png" alt="">
+      </div>
+       <div class="mySlides3 allSlides">
+        <img src="projects/queue/add.png" alt="">
+      </div>
+       <div class="mySlides3 allSlides">
+        <img src="projects/queue/tags.png" alt="">
+      </div>
+
+      <img class="arrow next" onclick="plusSlides(1, 3)" src="logos/right.png" alt="">
+
+    </div>
+
+    <div class="description">
+      <h2>Queue Me In</h2>
+      <p>This site aims to improve overcrowded office hours with an online queue that
+       helps teaching assistants answer questions more efficienctly and provides useful feedback to professors.
+        <br />
+        I am currently working on a new feature: graphic visualizations of our 
+        data for use by course instructors. Data such as busiest days and the
+          most commonly asked questions will be displayed to aid professors in 
+          making administrative and 
+          instructional decisions. 
+          Built with React, Typescript, and GraphQL.
+        <br />
+      </p>
+      <p>
+        <a class="sliding-middle-out" target="_blank" href="https://github.com/cornell-dti/office-hours" 
+        style="padding-right: 10px">
+          GitHub
+        </a>
+        <a class="sliding-middle-out" target="_blank" href="https://www.queueme.in/" 
+        style="padding-left: 10px">
+          Website
+        </a>
+      </p>
+    </div>
+
+
+    <!-- cisco -->
+    <div class="slideshow">
+
+      <img class="arrow prev" onclick="plusSlides(-1, 1)" src="logos/left.png" alt="">
+
+      <div class="mySlides allSlides">
+        <img src="projects/peds/1.png" alt="">
+      </div>
+      <div class="mySlides allSlides">
+        <img src="projects/peds/2.png" alt="">
+      </div>
+      <div class="mySlides allSlides">
+        <img src="projects/peds/3.png" alt="">
+      </div>
+      <div class="mySlides allSlides">
+        <img src="projects/peds/4.png" alt="">
+      </div>
+      <div class="mySlides allSlides">
+        <img src="projects/peds/5.png" alt="">
+      </div>
+
+      <img class="arrow next" onclick="plusSlides(1, 1)" src="logos/right.png" alt="">
+
+    </div>
+
+    <div class="description">
+      <h2>Project Management Tool</h2>
+      <p>I implemented the front-end features for this Flask app created from scratch with a
+        team of two other interns. <br />
+        The site was created to cut costs ($50,000 annually) by reducing Salesforce use. <br />
+        It allows managers to track their resources, visualize their team's time utilization, and easily assign tasks.</br>
+        Some of my contributions include a view of all ongoing projects that can be sorted and filtered, graphs
+        displaying employee time utilization, and a tool for adding and editing tasks. </p>
+    </div>
+
+    
+
+<!-- mips -->
+
+    <div class="slideshow">
+
+      <div class="allSlides">
+        <img src="projects/mips/mips.png" alt="">
+      </div>
+
+    </div>
+
+    <div class="description">
+      <h2>MIPS-32 Processor</h2>
+      <p>For my Systems Programming class, I designed a 5-stage pipelined processor with jumps, branches, data
+        forwarding, and stalling. A full write-up of my solution can be found <a class="sliding-middle-out" target="_blank"
+          href="projects/mips/mips.pdf">here</a>. </p>
+    </div>
+
+    <!-- graphics -->
+    <div class="slideshow">
+
+      <div class="allSlides">
+        <img src="projects/graphics/wine.jpg" alt="">
+      </div>
+
+    </div>
+
+    <div class="description">
+      <h2>Computer Graphics</h2>
+      <p>Here is an example of a shape I rendered in my graphics class using Catmull-Rom splines. Other memorable
+        projects include <a class="sliding-middle-out" target="_blank" href="projects/graphics/graphic-movie.mov">
+          keyframe animations </a> with interpolation of quaternions, environment mapping onto sample objects, and all
+        kinds of ray-tracing.</p>
+    </div>
+
+    <!-- game-->
+    
+    <div class="slideshow">
+
+      <div class="allSlides">
+        <img src="projects/game/forest.png" alt="">
+      </div>
+
+    </div>
+
+    <div class="description">
+      <h2>Game Design: Headspin</h2>
+      <p> I and a team of 5 other programmers and designers created Headspin from scratch for Intro to Game Design. This
+        puzzle-solving desktop platformer was made using LibGDX, a Java-based engine. My primary role was to produce
+        original artwork for the project and to assist in writing our manual and design documentation. It was displayed
+        in the annual GDIAC showcase. <a class="sliding-middle-out" target="_blank" href="projects/game/trailer.mp4">
+          Watch our trailer</a> if you're curious!</p>
+    </div>
+
+    <!-- posters -->
+
+    <h2>Intern Project Posters</h2>
+    <div class="posters">
+      <a target="_blank" href="projects/posters/splunk.png"><img src="projects/posters/splunk.png" alt=""></a>
+      <a target="_blank" href="projects/posters/peds.png"><img src="projects/posters/peds.png" alt=""></a>
+
+      <a target="_blank" href="projects/posters/websocket.png"><img src="projects/posters/websocket.png" alt=""></a>
+    </div>
+    <h2 style="margin-top: 80px;">Also, I made ~this website~ from scratch! (The mobile-friendliness is under
+      construction.)</h2>
+  </div>
+  <script>
+
+    var slideIndexPEDS = 1;
+    var slideIndexResearch = 1;
+    var slideIndexQueue = 1;
+
+    showSlides(slideIndexPEDS, 1);
+    showSlides(slideIndexResearch, 2);
+    showSlides(slideIndexQueue, 3);
+
+    function plusSlides(n, c) {
+      if (c == 1){
+        showSlides(slideIndexPEDS += n, c);
+      } else if (c == 2){
+        showSlides(slideIndexResearch += n, c);
+      } else if (c == 3){
+        showSlides(slideIndexQueue += n, c);
+      }
     }
 
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      if (n > slides.length) {slideIndex = 1}    
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
+    function showSlides(n, c) {
+      // console.log("adding " + n.toString() + " to mySlides" + c.toString())
+      if (c == 1){
+
+        var slides = document.getElementsByClassName("mySlides");
+        if (n > slides.length) {
+          slideIndexPEDS = 1;
+        }    
+        if (n < 1) {
+          slideIndexPEDS = slides.length
+        }
+        for (var i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slides[slideIndexPEDS -1].style.display = "inline-block";  
+        // console.log("change to slide " + (slideIndexPEDS -1).toString())
+      
+      } else if (c == 2){
+
+        var slides = document.getElementsByClassName("mySlides2");
+        if (n > slides.length) {
+          slideIndexResearch = 1;
+        }    
+        if (n < 1) {
+          slideIndexResearch = slides.length;
+        }
+        for (var i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slides[slideIndexResearch -1].style.display = "inline-block";  
+        // console.log("change to slide " + (slideIndexResearch - 1).toString() )
+      } else if (c == 3){
+
+        var slides = document.getElementsByClassName("mySlides3");
+        if (n > slides.length) {
+          slideIndexQueue = 1;
+        }    
+        if (n < 1) {
+          slideIndexQueue = slides.length;
+        }
+        for (var i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slides[slideIndexQueue -1].style.display = "inline-block";  
+        // console.log("change to slide " + (slideIndexQueue - 1).toString() )
       }
-      slides[slideIndex-1].style.display = "inline-block";  
-      }
-    </script>
-  </body>
+    
+    }
+
+  </script>
+</body>
+
 </html>
