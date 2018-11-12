@@ -26,7 +26,7 @@
   </div>
   <div class="content">
     <!-- research connect -->
-    
+
     <div class="slideshow">
 
       <img class="arrow prev" onclick="plusSlides(-1, 2)" src="logos/left.png" alt="">
@@ -57,7 +57,7 @@
         research positions and connect with professors. I collaborated with a
         team of 7 designers and developers to build it from scratch.
         <br />
-        I used React to create many front end features including ability to filter and search 
+        I used React to create many front end features including ability to filter and search
         for opportunities,
         match-finding between students and jobs, dynamic profile editing, registration forms,
         and lab information pages.
@@ -82,13 +82,13 @@
       <div class="mySlides3 allSlides">
         <img src="projects/queue/login.png" alt="">
       </div>
-       <div class="mySlides3 allSlides">
+      <div class="mySlides3 allSlides">
         <img src="projects/queue/queue.png" alt="">
       </div>
-       <div class="mySlides3 allSlides">
+      <div class="mySlides3 allSlides">
         <img src="projects/queue/add.png" alt="">
       </div>
-       <div class="mySlides3 allSlides">
+      <div class="mySlides3 allSlides">
         <img src="projects/queue/tags.png" alt="">
       </div>
 
@@ -99,23 +99,21 @@
     <div class="description">
       <h2>Queue Me In</h2>
       <p>This site aims to improve overcrowded office hours with an online queue that
-       helps teaching assistants answer questions more efficienctly and provides useful feedback to professors.
+        helps teaching assistants answer questions more efficienctly and provides useful feedback to professors.
         <br />
-        I am currently working on a new feature: graphic visualizations of our 
+        I am currently working on a new feature: graphic visualizations of our
         data for use by course instructors. Data such as busiest days and the
-          most commonly asked questions will be displayed to aid professors in 
-          making administrative and 
-          instructional decisions. 
-          Built with React, Typescript, and GraphQL.
+        most commonly asked questions will be displayed to aid professors in
+        making administrative and
+        instructional decisions.
+        Built with React, Typescript, and GraphQL.
         <br />
       </p>
       <p>
-        <a class="sliding-middle-out" target="_blank" href="https://github.com/cornell-dti/office-hours" 
-        style="padding-right: 10px">
+        <a class="sliding-middle-out" target="_blank" href="https://github.com/cornell-dti/office-hours" style="padding-right: 10px">
           GitHub
         </a>
-        <a class="sliding-middle-out" target="_blank" href="https://www.queueme.in/" 
-        style="padding-left: 10px">
+        <a class="sliding-middle-out" target="_blank" href="https://www.queueme.in/" style="padding-left: 10px">
           Website
         </a>
       </p>
@@ -157,9 +155,33 @@
         displaying employee time utilization, and a tool for adding and editing tasks. </p>
     </div>
 
-    
+    <div class="slideshow">
 
-<!-- mips -->
+      <div class="allSlides">
+        <img src="projects/oclue/oclue.png" alt="">
+      </div>
+
+    </div>
+
+    <div class="description">
+      <h2>OClue</h2>
+      <p>I designed and developed a text-based, command-line version of Clue
+        from scratch with two other developers. We used OCaml to implement all
+        the elements of the board game. <br />
+        My main personal contribution was
+        the creation of competitive bots of various difficulty levels, which
+        use logic and probability to deduce solutions. There are
+        instructions to play our game in our repository's ReadMe.
+        <p>
+          <a class="sliding-middle-out" target="_blank" href="https://github.com/rsn55/OClue" style="padding-right: 10px">
+            GitHub
+          </a>
+        </p>
+    </div>
+
+
+
+    <!-- mips -->
 
     <div class="slideshow">
 
@@ -194,7 +216,7 @@
     </div>
 
     <!-- game-->
-    
+
     <div class="slideshow">
 
       <div class="allSlides">
@@ -205,7 +227,8 @@
 
     <div class="description">
       <h2>Game Design: Headspin</h2>
-      <p> I and a team of 5 other programmers and designers created Headspin from scratch for Intro to Game Design. This
+      <p> I and a team of 5 other programmers and designers created Headspin from scratch for Intro to Game Design.
+        This
         puzzle-solving desktop platformer was made using LibGDX, a Java-based engine. My primary role was to produce
         original artwork for the project and to assist in writing our manual and design documentation. It was displayed
         in the annual GDIAC showcase. <a class="sliding-middle-out" target="_blank" href="projects/game/trailer.mp4">
@@ -235,62 +258,62 @@
     showSlides(slideIndexQueue, 3);
 
     function plusSlides(n, c) {
-      if (c == 1){
+      if (c == 1) {
         showSlides(slideIndexPEDS += n, c);
-      } else if (c == 2){
+      } else if (c == 2) {
         showSlides(slideIndexResearch += n, c);
-      } else if (c == 3){
+      } else if (c == 3) {
         showSlides(slideIndexQueue += n, c);
       }
     }
 
     function showSlides(n, c) {
       // console.log("adding " + n.toString() + " to mySlides" + c.toString())
-      if (c == 1){
+      if (c == 1) {
 
         var slides = document.getElementsByClassName("mySlides");
         if (n > slides.length) {
           slideIndexPEDS = 1;
-        }    
+        }
         if (n < 1) {
           slideIndexPEDS = slides.length
         }
         for (var i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
+          slides[i].style.display = "none";
         }
-        slides[slideIndexPEDS -1].style.display = "inline-block";  
+        slides[slideIndexPEDS - 1].style.display = "inline-block";
         // console.log("change to slide " + (slideIndexPEDS -1).toString())
-      
-      } else if (c == 2){
+
+      } else if (c == 2) {
 
         var slides = document.getElementsByClassName("mySlides2");
         if (n > slides.length) {
           slideIndexResearch = 1;
-        }    
+        }
         if (n < 1) {
           slideIndexResearch = slides.length;
         }
         for (var i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
+          slides[i].style.display = "none";
         }
-        slides[slideIndexResearch -1].style.display = "inline-block";  
+        slides[slideIndexResearch - 1].style.display = "inline-block";
         // console.log("change to slide " + (slideIndexResearch - 1).toString() )
-      } else if (c == 3){
+      } else if (c == 3) {
 
         var slides = document.getElementsByClassName("mySlides3");
         if (n > slides.length) {
           slideIndexQueue = 1;
-        }    
+        }
         if (n < 1) {
           slideIndexQueue = slides.length;
         }
         for (var i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
+          slides[i].style.display = "none";
         }
-        slides[slideIndexQueue -1].style.display = "inline-block";  
+        slides[slideIndexQueue - 1].style.display = "inline-block";
         // console.log("change to slide " + (slideIndexQueue - 1).toString() )
       }
-    
+
     }
 
   </script>
