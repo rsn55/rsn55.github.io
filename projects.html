@@ -9,11 +9,13 @@
   <link rel="stylesheet" type="text/css" href="style/projects.css" media="all" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" alt="favicon">
 
 </head>
 
 <body>
   <div class="header">
+      <a class="header-logo" href="index.html"><img src="logos/white-logo.png" alt="logo"/></a>
     <h2><a class="sliding-middle-out" href="index.html">rachel nash</a></h2>
     <nav>
       <ul>
@@ -80,6 +82,9 @@
       <img class="arrow prev" onclick="plusSlides(-1, 3)" src="logos/left.png" alt="">
 
       <div class="mySlides3 allSlides">
+        <img src="projects/queue/analytics.png" alt="">
+      </div>
+      <div class="mySlides3 allSlides">
         <img src="projects/queue/login.png" alt="">
       </div>
       <div class="mySlides3 allSlides">
@@ -101,11 +106,10 @@
       <p>This site aims to improve overcrowded office hours with an online queue that
         helps teaching assistants answer questions more efficienctly and provides useful feedback to professors.
         <br />
-        I am currently working on a new feature: graphic visualizations of our
+        I just implemented a new feature: graphic visualizations of our
         data for use by course instructors. Data such as busiest days and the
-        most commonly asked questions will be displayed to aid professors in
-        making administrative and
-        instructional decisions.
+        busiest times are displayed in graphs to aid professors in
+        making administrative and instructional decisions.
         Built with React, Typescript, and GraphQL.
         <br />
       </p>

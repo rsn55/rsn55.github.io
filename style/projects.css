@@ -2,6 +2,7 @@
 	text-align: center;
 	margin-top: 10%;
 	margin-bottom: 10%;
+	width: 1280px;
 }
 p{
 	color: #717578;
@@ -35,7 +36,7 @@ p{
 	text-align: left;
 	display: inline-block;
 	width: 400px;
-	
+
 	vertical-align:top;
 }
 

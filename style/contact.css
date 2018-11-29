@@ -2,11 +2,11 @@
 	text-align: center;
 	margin-top: 15%;
 }
-img{
+.content img{
 	width: 50px;
 	margin: 0px 15px;
 }
-img:hover{
+.content img:hover{
 	opacity: 0.5;
 }
 h3{
