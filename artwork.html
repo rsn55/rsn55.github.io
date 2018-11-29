@@ -14,8 +14,8 @@
 
 <body>
   <div class="header">
-      <a class="header-logo" href="index.html"><img src="logos/white-logo.png" alt="logo"/></a>
-    <h2><a class="sliding-middle-out" href="index.html">rachel nash</a></h2>
+    <a class="header-logo" href="index.html" onmouseover="switchToName()"><img src="logos/white-logo.png" alt="logo"/></a>
+    <h2 class="headerName" onmouseout="switchToLogo()"><a class="sliding-middle-out" href="index.html">rachel nash</a></h2>
     <nav>
       <ul>
         <li><a class="sliding-middle-out" href="about.html">about</a></li>
@@ -45,6 +45,17 @@
     </div>
 
   </div>
+  <script>
+  function switchToName(){
+        document.getElementsByClassName("headerName")[0].style.display = "inline-block";
+        document.getElementsByClassName("header-logo")[0].style.display = "none";
+  }
+  function switchToLogo(){
+        document.getElementsByClassName("headerName")[0].style.display = "none";
+        document.getElementsByClassName("header-logo")[0].style.display = "inline-block";
+  }
+
+</script>
 </body>
 
 </html>

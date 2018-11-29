@@ -15,7 +15,8 @@
 
 <body>
   <div class="header">
-      <a class="header-logo" href="index.html"><img src="logos/white-logo.png" alt="logo"/></a>
+    <a class="header-logo" href="index.html" onmouseover="switchToName()"><img src="logos/white-logo.png" alt="logo"/></a>
+    <h2 class="headerName" onmouseout="switchToLogo()"><a class="sliding-middle-out" href="index.html">rachel nash</a></h2>
     <h2><a class="sliding-middle-out" href="index.html">rachel nash</a></h2>
     <nav>
       <ul>
@@ -318,6 +319,14 @@
         // console.log("change to slide " + (slideIndexQueue - 1).toString() )
       }
 
+    }
+    function switchToName(){
+          document.getElementsByClassName("headerName")[0].style.display = "inline-block";
+          document.getElementsByClassName("header-logo")[0].style.display = "none";
+    }
+    function switchToLogo(){
+          document.getElementsByClassName("headerName")[0].style.display = "none";
+          document.getElementsByClassName("header-logo")[0].style.display = "inline-block";
     }
 
   </script>

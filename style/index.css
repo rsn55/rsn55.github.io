@@ -11,3 +11,6 @@
 .faded {
 	color: #717578;
 }
+.header #index-header-logo:hover{
+	opacity: 1.0;
+}
