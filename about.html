@@ -2,21 +2,31 @@
 <html>
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131231639-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-131231639-1');
+  </script>
+
   <meta charset="UTF-8">
   <title>Rachel Nash</title>
 
   <link rel="stylesheet" type="text/css" href="style/all.css" media="all" />
   <link rel="stylesheet" type="text/css" href="style/about.css" media="all" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" alt="favicon">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" alt="favicon">
 
 </head>
 
 <body>
   <div class="header">
-    <a class="header-logo" href="index.html" onmouseover="switchToName()"><img src="logos/white-logo.png" alt="logo"/></a>
+    <a class="header-logo" href="index.html" onmouseover="switchToName()"><img src="logos/white-logo.png" alt="logo" /></a>
     <h2 class="headerName" onmouseout="switchToLogo()"><a class="sliding-middle-out" href="index.html">rachel nash</a></h2>
-      
+
     <nav>
       <ul>
         <li><a class="active" href="about.html">about</a></li>
@@ -99,16 +109,16 @@
 
   </div>
   <script>
-  function switchToName(){
-        document.getElementsByClassName("headerName")[0].style.display = "inline-block";
-        document.getElementsByClassName("header-logo")[0].style.display = "none";
-  }
-  function switchToLogo(){
-        document.getElementsByClassName("headerName")[0].style.display = "none";
-        document.getElementsByClassName("header-logo")[0].style.display = "inline-block";
-  }
+    function switchToName() {
+      document.getElementsByClassName("headerName")[0].style.display = "inline-block";
+      document.getElementsByClassName("header-logo")[0].style.display = "none";
+    }
+    function switchToLogo() {
+      document.getElementsByClassName("headerName")[0].style.display = "none";
+      document.getElementsByClassName("header-logo")[0].style.display = "inline-block";
+    }
 
-</script>
+  </script>
 </body>
 
 </html>

@@ -2,6 +2,18 @@
 <html>
 
 <head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131231639-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-131231639-1');
+  </script>
+
+
   <meta charset="UTF-8">
   <title>Rachel Nash</title>
 
@@ -15,7 +27,7 @@
 
 <body>
   <div class="header">
-    <a class="header-logo" href="index.html" onmouseover="switchToName()"><img src="logos/white-logo.png" alt="logo"/></a>
+    <a class="header-logo" href="index.html" onmouseover="switchToName()"><img src="logos/white-logo.png" alt="logo" /></a>
     <h2 class="headerName" onmouseout="switchToLogo()"><a class="sliding-middle-out" href="index.html">rachel nash</a></h2>
     <h2><a class="sliding-middle-out" href="index.html">rachel nash</a></h2>
     <nav>
@@ -320,13 +332,13 @@
       }
 
     }
-    function switchToName(){
-          document.getElementsByClassName("headerName")[0].style.display = "inline-block";
-          document.getElementsByClassName("header-logo")[0].style.display = "none";
+    function switchToName() {
+      document.getElementsByClassName("headerName")[0].style.display = "inline-block";
+      document.getElementsByClassName("header-logo")[0].style.display = "none";
     }
-    function switchToLogo(){
-          document.getElementsByClassName("headerName")[0].style.display = "none";
-          document.getElementsByClassName("header-logo")[0].style.display = "inline-block";
+    function switchToLogo() {
+      document.getElementsByClassName("headerName")[0].style.display = "none";
+      document.getElementsByClassName("header-logo")[0].style.display = "inline-block";
     }
 
   </script>
